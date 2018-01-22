@@ -4,15 +4,34 @@
 }
 .navigation a {
     float:right;
-    font-family: 'Open Sans Condensed', sans-serif;
-    margin: 2px 5px;
+    font-family: 'Dosis', sans-serif;
+    margin: 2px 7px;
     color: black;
     text-align: center;
     padding: 14px 16 px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 .socialicons {
     height: 28px;
     width: 28px;
+    margin-right: 5px;
+}
+#backgroundphoto {
+    max-width: 100%;
+    height: auto;
+}
+.ideales{
+    display: inline-block;
+    margin: 40px 50px;
+    width: 200px;
+	height: 200px;
+	background: red;
+
+}
+.ideales h1 {
+   font-family: 'Roboto', sans-serif;
+}
+.ideales h2 {
+    font-family: 'Open Sans Condensed', sans-serif
 }
