@@ -1,3 +1,6 @@
+body{
+    text-align: center;
+}
 .navigation {
     background-color: white;
     overflow: hidden;
@@ -16,22 +19,26 @@
     height: 28px;
     width: 28px;
     margin-right: 5px;
+    float:left;
 }
 #backgroundphoto {
     max-width: 100%;
     height: auto;
 }
-.ideales{
+.ideales {
     display: inline-block;
     margin: 40px 50px;
-    width: 200px;
-	height: 200px;
-	background: red;
-
+    width: 240px;
+	height: 240px;
+	background: #22c2aa;
+    padding: 5px 5px;
 }
 .ideales h1 {
    font-family: 'Roboto', sans-serif;
+    color: white;
 }
 .ideales h2 {
-    font-family: 'Open Sans Condensed', sans-serif
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 20px;
 }
